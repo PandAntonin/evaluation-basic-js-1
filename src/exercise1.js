@@ -1,9 +1,11 @@
-var removeNegativeValue = function(values) {
-  var input = [values];
-  if (values = []) {
-    return []
+var input = [34, -5, 9, 18, 0, -7, 32];
+var removeNegativeValue = function(input) {
+  if (input != null) {
+    var output = input.filter(numbers => numbers >= 0);
+    return output;
   } else {
-    return values >= 0;
+    var output = [];
+    return output;
   }
 }
 
